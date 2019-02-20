@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ProatomicCore_Example' do
+  pod 'ProatomicCore', :path => '../'
+
+  target 'ProatomicCore_Tests' do
+    inherit! :search_paths
+
+#pod 'FBSnapshotTestCase'
+  end
+end
