@@ -1,14 +1,7 @@
-#
-# Be sure to run `pod lib lint ProatomicCore.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'ProatomicCore'
-  s.version          = '0.5.7'
+  s.version          = '0.5.8'
   s.summary          = "Proatomic's APIs for iOS"
   s.description      = "Proatomic dependencies for iOS."
   s.homepage         = 'http://proatomicdev.com'
@@ -22,7 +15,9 @@ Pod::Spec.new do |s|
   ]
 
   s.subspec 'Core' do |ss|
-    ss.vendored_frameworks = [ 'ProatomicCore/Frameworks/ProatomicCore-Release-iphoneuniversal/ProatomicCore.framework' ]
-end
+      ss.dependency 'UIDevice-Hardware'
+      ss.dependency 'CocoaLumberjack'
+      ss.vendored_frameworks = [ 'ProatomicCore/Frameworks/ProatomicCore-Release-iphoneuniversal/ProatomicCore.framework' ]
+  end
 
 end
