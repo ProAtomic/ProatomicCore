@@ -6,14 +6,25 @@
 //  Copyright © 2017 Property Atomic Strong SAC. All rights reserved.
 //
 
+
+#if __has_feature(modules)
+@import CocoaLumberjack;
 @import Foundation;
+#else
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <Foundation/Foundation.h>
+#endif
 
 //#define IfDebug Debug==1
 //#define ReallyDebug if(IfDebug)DDLogVerbose(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
 
-@interface PASLoggerHelper : NSObject
+#ifdef DEBUG
+const int ddLogLevel = DDLogFlagVerbose | DDLogFlagDebug | DDLogFlagInfo | DDLogFlagWarning | DDLogFlagError;
+#else
+const int ddLogLevel = DDLogFlagWarning | DDLogFlagError;
+#endif
 
-extern const int ddLogLevel;
+@interface PASLoggerHelper : NSObject
 
 #ifdef DEBUG
 + (void)loadDebuggingInformationOverlay;

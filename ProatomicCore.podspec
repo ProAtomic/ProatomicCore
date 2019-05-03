@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ProatomicCore'
-  s.version          = '0.5.10'
+  s.version          = '0.5.11'
   s.summary          = "Proatomic's APIs for iOS"
   s.description      = "Proatomic dependencies for iOS."
   s.homepage         = 'http://proatomicdev.com'
