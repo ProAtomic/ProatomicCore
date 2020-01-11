@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D09A5FD362693AE5C5A9503 /* libPods-ProatomicCore_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 180898F27D2A191A921582DE /* libPods-ProatomicCore_Tests.a */; };
+		1B9821B7E1DE9A330E6054AB /* libPods-ProatomicCore_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D7C92ADF3B509333B12251 /* libPods-ProatomicCore_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,9 +22,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		76DAA5AA6639F12950B469B2 /* Pods_ProatomicCore_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C192386C94905C01648BC3 /* Pods_ProatomicCore_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		98F9479D526417DA1282BF30 /* Pods_ProatomicCore_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C807F5A0C21C05A5CD93E72 /* Pods_ProatomicCore_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 
 /* Begin PBXFileReference section */
 		01AE2D145CD40A1BA16F59F4 /* Pods-ProatomicCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProatomicCore_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProatomicCore_Tests/Pods-ProatomicCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		180898F27D2A191A921582DE /* libPods-ProatomicCore_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProatomicCore_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BBC0367652E4ACBF997A9FD /* ProatomicCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ProatomicCore.podspec; path = ../ProatomicCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3C807F5A0C21C05A5CD93E72 /* Pods_ProatomicCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProatomicCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ProatomicCore_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProatomicCore_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +62,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9A2D05C1DF3936EC49903E81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AD604DD1D4FD85CED88D3917 /* Pods-ProatomicCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProatomicCore_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProatomicCore_Example/Pods-ProatomicCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B6D7C92ADF3B509333B12251 /* libPods-ProatomicCore_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProatomicCore_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB1149A07E48459084E5E7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CD0BD773930F447BAF2E3634 /* Pods-ProatomicCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProatomicCore_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProatomicCore_Tests/Pods-ProatomicCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D2C192386C94905C01648BC3 /* Pods_ProatomicCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProatomicCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				98F9479D526417DA1282BF30 /* Pods_ProatomicCore_Example.framework in Frameworks */,
+				1B9821B7E1DE9A330E6054AB /* libPods-ProatomicCore_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				76DAA5AA6639F12950B469B2 /* Pods_ProatomicCore_Tests.framework in Frameworks */,
+				0D09A5FD362693AE5C5A9503 /* libPods-ProatomicCore_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				3C807F5A0C21C05A5CD93E72 /* Pods_ProatomicCore_Example.framework */,
-				D2C192386C94905C01648BC3 /* Pods_ProatomicCore_Tests.framework */,
+				B6D7C92ADF3B509333B12251 /* libPods-ProatomicCore_Example.a */,
+				180898F27D2A191A921582DE /* libPods-ProatomicCore_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -318,15 +318,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ProatomicCore_Example/Pods-ProatomicCore_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
 				"${PODS_ROOT}/../../ProatomicCore/Frameworks/ProatomicCore-Release-iphoneuniversal/ProatomicCore.framework",
-				"${BUILT_PRODUCTS_DIR}/UIDevice-Hardware/UIDevice_Hardware.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProatomicCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIDevice_Hardware.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

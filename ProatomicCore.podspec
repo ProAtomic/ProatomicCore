@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ProatomicCore'
-  s.version          = '0.5.12'
+  s.version          = '0.6'
   s.summary          = "Proatomic's APIs for iOS"
   s.description      = "Proatomic dependencies for iOS."
   s.homepage         = 'http://proatomicdev.com'
@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
   ]
 
   s.subspec 'Core' do |ss|
-      ss.dependency 'UIDevice-Hardware'
       ss.vendored_frameworks = [ 'ProatomicCore/Frameworks/ProatomicCore-Release-iphoneuniversal/ProatomicCore.framework' ]
   end
 

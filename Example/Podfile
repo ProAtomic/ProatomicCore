@@ -1,4 +1,4 @@
-use_frameworks!
+use_modular_headers!
 
 target 'ProatomicCore_Example' do
   pod 'ProatomicCore', :path => '../'

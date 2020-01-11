@@ -19,5 +19,4 @@ FOUNDATION_EXPORT const unsigned char ProatomicCoreVersionString[];
 #import <ProatomicCore/PASCategories.h>
 #import <ProatomicCore/PASTextValidators.h>
 #import <ProatomicCore/PASMath.h>
-//#import <UIDevice-Hardware/UIDevice-Hardware.h>
 

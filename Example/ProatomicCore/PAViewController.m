@@ -8,7 +8,7 @@
 
 #import "PAViewController.h"
 
-@import ProatomicCore;
+#import <ProatomicCore/ProatomicCore.h>
 
 @interface PAViewController ()
 
