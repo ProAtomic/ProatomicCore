@@ -1,0 +1,6 @@
+framework module ProatomicCore {
+  umbrella header "ProatomicCore.h"
+
+  export *
+  module * { export * }
+}
